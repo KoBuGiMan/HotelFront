@@ -1,0 +1,5 @@
+
+ˆjavascript:S2004"ARefactor this code to not nest functions more than 4 levels deep.(Å¾¬âûÿÿÿÿJ$8eab0f48-7175-437b-b96f-44d61be72ed8
+sjavascript:S6749 ",A fragment with only one child is redundant.(™åÑðüÿÿÿÿJ$93eca70c-8b2b-43e2-8af1-a10251e98895
+…javascript:S6848*"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(Æ„§¿J$d06b1af5-df89-4642-8c4a-b6a2b4ca425d
+¡javascript:S1082*"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(Æ„§¿J$ae051ab8-9323-49bc-aab1-37af818d3aa4

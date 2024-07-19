@@ -211,7 +211,7 @@
 
 .roomList-title {
   font-family: 'NEXON Lv1 Gothic OTF';
-  font-size: 20px;
+
   position: relative;
   top: 30px;
   border-left: 4px solid brown;
@@ -222,6 +222,7 @@
   position: relative;
   left: 10px;
   top: 3px;
+  font-size: 20px;
 }
 
 .standard-area {
@@ -311,3 +312,77 @@
   text-align: center;
   width: 200px;
 }
+
+/* 캘린더 start */
+
+.startCalendar {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  height: 10px;
+  width: 242px;
+}
+
+.endCalendar {
+  display: inline-block;
+  position: relative;
+  margin-left: 110px;
+  z-index: 3;
+  height: 10px;
+  width: 242px;
+}
+
+.react-datepicker__current-month {
+  font-size: 20px;
+}
+
+.react-datepicker__month-container {
+  width: 300px;
+  height: 330px;
+  font-size: 20px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+.react-datepicker__month {
+  width: 300px;
+}
+
+.react-datepicker__header {
+  background-color: rgb(255, 255, 255);
+  border-color: aliceblue;
+}
+
+.react-datepicker__day:nth-child(1) {
+  color: red;
+  /* 일요일 날짜*/
+}
+
+.react-datepicker__day:nth-child(7) {
+  color: #8685FF;
+  /* 토요일 날짜 */
+}
+
+.react-react-datepicker__navigation {
+  color: rgb(80, 39, 0);
+}
+
+.react-datepicker__day-name {
+  padding: 2.5px;
+}
+
+.react-datepicker__week {
+  margin-top: 10px;
+  width: 298px;
+}
+
+.react-datepicker__day {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.react-datepicker__day--selected {
+  background-color: rgb(97, 53, 2);
+}
+
+/* 캘린더 end */

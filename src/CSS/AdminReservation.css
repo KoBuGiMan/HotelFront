@@ -1,0 +1,119 @@
+.adminReservation-body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: 'NEXON Lv1 Gothic OTF'
+}
+
+.adminReservation-box {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.adminReservation-box-title {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-left: 4px brown solid;
+  margin-bottom: 50px;
+}
+
+.adminReservation-box-title-text {
+  font-size: 25px;
+}
+
+.adminReservation-box-area {
+  margin-left: 20px;
+}
+
+.adminReservation-box-area-content {
+  border: black solid 1px;
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.adminReservation-box-area-content:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.adminReservation-box-area-content-line {
+  margin-bottom: 12px;
+}
+
+.adminReservation-box-area-content-line-text {
+  font-size: 20px;
+}
+
+.adminReservation-box-input {
+  position: fixed;
+  border: black solid 1px;
+  width: 400px;
+  height: 680px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: rgb(224, 224, 224);
+  top: 150px;
+  right: 500px;
+  z-index: 3;
+}
+
+.adminReservation-box-input-line {
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.adminReservation-box-input-line-text {
+  height: 21px;
+  font-size: 20px;
+  width: 390px;
+}
+
+.adminReservation-box-input-line-text:focus {
+  outline: none;
+}
+
+.adminReservation-box-input-btn {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  width: 70px;
+  height: 35px;
+  text-align: center;
+  margin-left: 90px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.adminReservation-box-input-btn:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.adminReservation-box-input-btn-text {
+  position: relative;
+  top: 6px;
+  font-size: 20px;
+}
+
+.adminReservation-box-input-close {
+  position: absolute;
+  left: 410px;
+  top: 5px;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  border: 1px black solid;
+}
+
+.adminReservation-box-input-close-text {
+  position: relative;
+  top: 1px;
+}

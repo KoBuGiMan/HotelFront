@@ -4,9 +4,9 @@ import "../CSS/Rooms.css";
 import StandardRoom from "../component/StandardRoom";
 import DeluxeRoom from "../component/DeluxeRoom";
 import LuxuryRoom from "../component/LuxuryRoom";
-
 function Rooms({ roomRole, setRoomRole }) {
   const [room, setRoom] = useState([]);
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   const selectStandard = () => {
     setRoomRole("standard");
@@ -19,7 +19,8 @@ function Rooms({ roomRole, setRoomRole }) {
   };
 
   useEffect(() => {
-    fetch("rooms")
+    fetch(`${apiUrl}/rooms`)
+      //fetch("/rooms")
       .then((res) => res.json())
       .then((data) => setRoom(data))
       .catch((error) => console.error("Error fetching data:", error));

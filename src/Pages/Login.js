@@ -2,16 +2,17 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../CSS/Login.css";
 
-
-function Login({ changeLoginId, changeIsLogin }) {
-  const [loginId, setLoginId] = useState("");
+function Login({ changeLoginId, changeIsLogin, setUserRole }) {
+  const [LoginId, setLoginId] = useState("");
   const [password, setPassword] = useState("");
   const [isLogin, setIsLogin] = useState(false);
   const [users, setUsers] = useState([]);
   const navigate = useNavigate();
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   useEffect(() => {
-    fetch("users")
+    fetch(`${apiUrl}/users`)
+    //fetch("/users")
       .then((res) => {
         return res.json();
       })
@@ -23,7 +24,7 @@ function Login({ changeLoginId, changeIsLogin }) {
   useEffect(() => {
     if (isLogin) {
       console.log("isLogin: " + isLogin);
-      changeLoginId(loginId);
+      changeLoginId(LoginId);
       changeIsLogin(isLogin);
       navigate("/");
     }
@@ -36,11 +37,12 @@ function Login({ changeLoginId, changeIsLogin }) {
     setPassword(data.target.value);
   };
   const Login = () => {
-    if (loginId !== "" && password !== "") {
-      const foundUser = users.find((user) => user.loginId === loginId);
+    if (LoginId !== "" && password !== "") {
+      const foundUser = users.find((user) => user.loginId === LoginId);
       if (foundUser) {
         if (password === foundUser.password) {
           setIsLogin(true);
+          setUserRole(foundUser.userRole);
         } else {
           alert("비밀번호가 틀렸습니다");
         }
@@ -70,7 +72,7 @@ function Login({ changeLoginId, changeIsLogin }) {
                 className="text"
                 minLength="8"
                 type="text"
-                value={loginId}
+                value={LoginId}
                 onChange={OnChangeId}
                 placeholder=" ID"
               />
@@ -81,7 +83,7 @@ function Login({ changeLoginId, changeIsLogin }) {
               <input
                 className="text"
                 minLength="8"
-                type="text"
+                type="password"
                 onChange={OnChangePW}
                 value={password}
                 placeholder=" Password"

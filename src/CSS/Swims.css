@@ -1,0 +1,134 @@
+.swimBody {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.roleBar2 {
+  position: relative;
+  top: 6%;
+  left: 3%;
+  width: 500px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.roleBar2-content {
+  position: relative;
+  width: 115px;
+  height: 38px;
+  display: inline-block;
+  border: 1px solid rgb(206, 206, 206);
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.roleBar2-content-text {
+  position: relative;
+  top: 25%;
+  font-size: 17px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  font-weight: 500;
+}
+
+.list {
+  position: relative;
+  top: 3%;
+  height: 1500px;
+}
+
+.content2 {
+  position: relative;
+  width: 1100px;
+  height: 860px;
+  top: 5%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+}
+
+.content2-title {
+  position: relative;
+  top: 1%;
+  left: 3%;
+  font-family: "Amiri", serif;
+}
+
+.content2-box {
+  position: relative;
+  margin: 0 auto;
+  width: 1080px;
+  height: 620px;
+  top: 4%;
+  overflow: hidden;
+  display: flex;
+}
+
+.pools {
+  width: 60%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  font-size: 18px;
+  line-height: 1.5;
+  left: -10px;
+  top: -6px;
+}
+
+.pools a {
+  font-size: 28px;
+}
+
+.content2-box img {
+  width: 70%;
+  height: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}

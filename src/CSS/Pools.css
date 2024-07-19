@@ -1,0 +1,20 @@
+/* Pools.css */
+.poolBody {
+    padding: 20px;
+  }
+  
+  .typeBar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .typeBar-content {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .typeBar-content-text {
+    font-size: 16px;
+  }
+  

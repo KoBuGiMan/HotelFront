@@ -1,0 +1,36 @@
+
+ljavascript:S6774"%'name' is missing in props validation(Ã‰ªüıÿÿÿÿJ$5d2974df-25ea-4f6b-873c-69718b2f9ee1
+hjavascript:S6774"&'phone' is missing in props validation(ë´ÔûJ$5a8b0183-2d84-4b24-a73c-d500b14e3534
+ojavascript:S6774"('address' is missing in props validation(ØŸû©şÿÿÿÿJ$a56beeb7-d55c-4d6b-a6d4-4c9e78100e0f
+kjavascript:S6774	")'zoneCode' is missing in props validation(Ğ¢«¶J$14f66169-cb03-4db6-a3e9-a11603b79cfe
+mjavascript:S6774
+"&'email' is missing in props validation(ŸîÂøÿÿÿÿJ$7188ec74-484b-4982-974e-16bb49bedbfd
+kjavascript:S6774")'roomRole' is missing in props validation(Ò­…ÔJ$f7ad7593-9aff-450e-adf6-c3e3ab024a89
+kjavascript:S6774"$'sum' is missing in props validation(½Üš¸ùÿÿÿÿJ$66e9873a-2108-4f1c-9230-cb7823229531
+hjavascript:S6774"&'price' is missing in props validation(Ççµ°J$bf5d1572-8ab2-4b97-9bc4-6344c23c431d
+sjavascript:S6774",'verCheckNum' is missing in props validation(¬ŞÂ²øÿÿÿÿJ$0a8a53fe-d9a4-4ba2-b624-07aa264d83e0
+ejavascript:S6774"$'car' is missing in props validation(¼øJ$6e9d1281-fe18-4a3e-a704-de1226774883
+mjavascript:S6774"&'adult' is missing in props validation(æ”‡éúÿÿÿÿJ$5a5255bd-a4e4-424f-a4bf-a1fd0aa0f160
+mjavascript:S6774"&'child' is missing in props validation(ÑÏ¤‚ûÿÿÿÿJ$0e85fb20-d2ce-4765-bcfb-c07d83899f19
+ljavascript:S6774"%'baby' is missing in props validation(Ö™¬ëùÿÿÿÿJ$df9004fc-99ee-4ae4-8b03-e6cb90e179bf
+ljavascript:S6774"*'startDate' is missing in props validation(ÀµãJ$cd54ea12-212f-4c16-8b36-f1c25fec3f3b
+ojavascript:S6774"('endDate' is missing in props validation(áŒ×“ÿÿÿÿÿJ$ea2de1fb-4dd7-4ba8-ad4a-fb03f21429c4
+jjavascript:S6774"('loginId' is missing in props validation(ô²ùŒJ$7d64852b-061c-4ad8-8b2b-767d258dc305
+–javascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(†÷¢¿J$5a34f3d6-e061-440a-8743-e340b5de2fcb
+…javascript:S33585"DExtract this nested ternary operation into an independent statement.(îéÃJ$c5f1c236-7482-447b-89a3-5f3cf4a1fa9e
+†javascript:S33587"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$abf46b16-4ff2-42c4-9916-cf526f24d7d3
+…javascript:S3358>"DExtract this nested ternary operation into an independent statement.(îéÃJ$e3538464-8f19-4a5b-aca7-76cc642f3db8
+†javascript:S3358@"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$d17962c6-9e84-464f-bfbb-25843b4bd0ff
+…javascript:S3358e"DExtract this nested ternary operation into an independent statement.(îéÃJ$e23b0b3c-2a91-4fbe-9e53-9ace586a5f7c
+†javascript:S3358g"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$d110aea8-ce6b-49f0-aef1-b3564388942a
+…javascript:S3358n"DExtract this nested ternary operation into an independent statement.(îéÃJ$3cd13b7d-856b-4926-941f-a920e30dff7b
+†javascript:S3358p"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$6ce68261-73b0-4f1e-96b6-79aa79547ecc
+tjavascript:S6749’",A fragment with only one child is redundant.(™åÑğüÿÿÿÿJ$a0f078d8-d0db-4138-ba3f-aaa51eb8f2d2
+†javascript:S3358™"DExtract this nested ternary operation into an independent statement.(îéÃJ$304a178b-8717-4a2b-ba99-c3b8ae09b229
+‡javascript:S3358›"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$825d09ea-e3a4-455a-afae-bf9df56e6dd5
+†javascript:S3358¤"DExtract this nested ternary operation into an independent statement.(îéÃJ$cc59621b-546a-4a15-bca3-c91393327f47
+‡javascript:S3358¦"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$02beaed1-3104-42d5-8481-5671433963e9
+†javascript:S3358Á"DExtract this nested ternary operation into an independent statement.(îéÃJ$8d6019ef-ac6e-479c-b9fd-44acfb4c984d
+‡javascript:S3358Ã"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$7781c424-cc0c-4272-b0d2-7affc312781e
+‹javascript:S6848Ì"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(ôß‚óúÿÿÿÿJ$608ad979-5101-4d85-91e6-229b55682810
+§javascript:S1082Ì"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ôß‚óúÿÿÿÿJ$40838616-9726-4ab9-b4b5-7b86d5c8e3f7

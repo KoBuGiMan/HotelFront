@@ -1,0 +1,25 @@
+
+ojavascript:S1128"(Remove this unused import of 'useState'.(óİ¥­şÿÿÿÿJ$c507394b-bf96-46ac-ac54-244dfeb6117e
+ojavascript:S6774"('isLogin' is missing in props validation(ÁÃ­¿üÿÿÿÿJ$9ce41725-1599-4bfb-929f-af4ca13b36cc
+kjavascript:S6774"$'sum' is missing in props validation(½Üš¸ùÿÿÿÿJ$a9f1d521-0609-4ff4-b4ad-b2dcb7c368d7
+mjavascript:S6774"&'count' is missing in props validation( şÚıÿÿÿÿJ$0d9aa1d2-ae9b-4a80-8be8-57559608a945
+pjavascript:S6774")'setCount' is missing in props validation(ïò³ŒùÿÿÿÿJ$03889691-7b65-41b2-b0e1-785bfba957a3
+sjavascript:S6774	",'setRoomRole' is missing in props validation(Á–ÍÖùÿÿÿÿJ$95267bf6-bd65-4688-af55-31d7642824cf
+hjavascript:S6774
+"&'price' is missing in props validation(Ççµ°J$fc62bd45-53d3-43a6-9a27-c0f6046ef114
+pjavascript:S6774")'setPrice' is missing in props validation(¬²»àşÿÿÿÿJ$75e5c07b-ce3b-473d-9eec-1a3e97108ee1
+ljavascript:S6774"%'role' is missing in props validation(ºôÛ‚øÿÿÿÿJ$40dc966f-c58d-483a-85f3-6d902eb437c5
+ijavascript:S6774"('setRole' is missing in props validation(Ì­J$66a46da3-c1e2-4df4-bf88-952badeb651f
+sjavascript:S6749`",A fragment with only one child is redundant.(™åÑğüÿÿÿÿJ$dd803d3f-7e1b-497d-b8ee-3b30ab1fa396
+”javascript:S6847h"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Æœ¢ÃJ$e09570a9-8b6a-40cb-aeb3-15616cb2a26e
+¡javascript:S1082h"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(Æœ¢ÃJ$6ec46615-4ee8-4b9a-8bfc-b5b3b5abae84
+…javascript:S6848~"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(“ÈÚ‚J$ff119b9e-bf81-4c5c-ba01-aa8678b0e5ea
+¡javascript:S1082~"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(“ÈÚ‚J$d94831a0-33f9-4406-90e9-36e0f55a057a
+•javascript:S6847…"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Æœ¢ÃJ$aa45b8e2-0b27-4dd0-947d-ed97f0227ed5
+¢javascript:S1082…"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(Æœ¢ÃJ$4d366705-9397-42c8-b4fe-19e415915770
+†javascript:S6848›"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(Öµø§J$e96b39df-3fa8-4762-ba9f-e94a9db6f663
+¢javascript:S1082›"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(Öµø§J$789c2e23-3d22-4431-b9ca-c541e07e613c
+•javascript:S6847¢"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Æœ¢ÃJ$91a333b8-e851-4116-9f24-733e9101ec88
+¢javascript:S1082¢"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(Æœ¢ÃJ$fdc864ea-d02b-4c83-b65b-6104daf81972
+‹javascript:S6848·"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$0ea9bc57-19b1-4a95-9531-bddb3289b653
+§javascript:S1082·"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$b5565155-e622-465e-be6b-1f040b6b47b4

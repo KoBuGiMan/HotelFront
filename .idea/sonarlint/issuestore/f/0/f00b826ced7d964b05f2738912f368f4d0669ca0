@@ -1,0 +1,33 @@
+
+ijavascript:S1128"'Remove this unused import of 'getDate'.(ºÑğJ$8f16d252-9a85-47da-a245-299073d4c17a
+ljavascript:S6774	"*'startDate' is missing in props validation(ÀµãJ$fbb1b012-64b8-4260-93f0-74ca8fbf7f62
+tjavascript:S6774
+"-'setStartDate' is missing in props validation(ÒÃŸøÿÿÿÿJ$91f2b70b-55ce-4cdb-8058-7f6a2ce7ba74
+ojavascript:S6774"('endDate' is missing in props validation(áŒ×“ÿÿÿÿÿJ$bcffa3bf-32e7-468f-aef8-267ee6299751
+ljavascript:S6774"+'setEndDate' is missing in props validation(¿öù3J$1d6fe309-4c98-4f3c-a33f-24c700442613
+kjavascript:S6774"$'sum' is missing in props validation(½Üš¸ùÿÿÿÿJ$d52d4dc5-d443-4507-980b-f52233715925
+ijavascript:S6774"''setSum' is missing in props validation(Ğ­éJ$0dde18b1-d52b-4313-b9f4-44762532b799
+mjavascript:S6774"&'count' is missing in props validation( şÚıÿÿÿÿJ$777fcea8-9f06-4268-84e7-b6407ca03ded
+pjavascript:S6774")'setCount' is missing in props validation(ïò³ŒùÿÿÿÿJ$a4ca3c82-c1c2-4605-858f-7c0591aa0cff
+mjavascript:S6774"&'adult' is missing in props validation(æ”‡éúÿÿÿÿJ$9fe2dc7c-1391-4b61-bb8d-983ee286dfe9
+pjavascript:S6774")'setAdult' is missing in props validation(¿Ê‹»úÿÿÿÿJ$823ced0b-33ac-4c97-aac2-93b2c0bd2f7f
+mjavascript:S6774"&'child' is missing in props validation(ÑÏ¤‚ûÿÿÿÿJ$8197e464-2e77-4435-b401-48b4649b2569
+pjavascript:S6774")'setChild' is missing in props validation(êÎë üÿÿÿÿJ$fb176d21-1ddb-40c0-8298-bef3f7730a4e
+ljavascript:S6774"%'baby' is missing in props validation(Ö™¬ëùÿÿÿÿJ$4db5fcc5-c63c-4f52-8e29-3bcc16c00360
+jjavascript:S6774"('setBaby' is missing in props validation(æÁšàJ$9423e08e-1bf9-4808-8f24-3ca6e10f486b
+rjavascript:S67744"0'endDate.getTime' is missing in props validation(´ô«ĞJ$2d5d34ed-989f-4c51-bbcd-3506af2007cb
+tjavascript:S67744"2'startDate.getTime' is missing in props validation(´ô«ĞJ$4749041a-3dde-4182-b9e2-ec2f862685bb
+tjavascript:S6774B"2'startDate.getDate' is missing in props validation(ï×ÈÔJ$cbc5439f-8b1d-4aca-beed-2b83e0ac0199
+ejavascript:S125\"Remove this commented out code.(ŸÌ™¡ıÿÿÿÿJ$251aa714-3e79-4713-94ff-efcc920074cf
+…javascript:S6848k"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(ª‹øÍJ$f98c566e-63d6-4b57-98d0-21ce65073681
+¡javascript:S1082k"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ª‹øÍJ$d8cb16e8-8e3f-4848-9807-649fcbe6f5a9
+…javascript:S6848y"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(”¨“J$50272c67-9bb3-4ad5-a519-880d114358bb
+¡javascript:S1082y"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(”¨“J$0cce7fb8-0922-485d-aad6-235be80165b9
+‹javascript:S6848Œ"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¹ñ’ÿÿÿÿÿJ$a531c279-eb4b-48c7-9282-b9f0b42a6025
+§javascript:S1082Œ"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¹ñ’ÿÿÿÿÿJ$af93cb82-a278-474d-8460-69b0bef40cb2
+‹javascript:S6848”"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¹ñ’ÿÿÿÿÿJ$14b5b7e9-daf7-436f-8691-17a96ed78cfe
+§javascript:S1082”"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¹ñ’ÿÿÿÿÿJ$c09a0cd0-5b84-4e27-a95b-cc32433aa3c7
+‹javascript:S6848œ"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¹ñ’ÿÿÿÿÿJ$c924c9c6-3ff2-45ff-8cc8-7d1d9d1febf0
+§javascript:S1082œ"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¹ñ’ÿÿÿÿÿJ$01327dc0-514f-4ecd-ab4a-e89f66c78fe0
+…javascript:S6848¡"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(É¡şUJ$2f594253-b585-479f-96e4-b8e8acd1653f
+¡javascript:S1082¡"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(É¡şUJ$a88fbcbb-0537-460d-a8f5-d2dff0ddd77b

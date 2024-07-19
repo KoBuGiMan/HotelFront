@@ -1,0 +1,15 @@
+
+sjavascript:S6774",'setSwimRole' is missing in props validation(–¿ÓÄÿÿÿÿÿJ$3c5eb0d0-4563-4764-b6f5-a604417c76a2
+javascript:S6754":useState call is not destructured into value + setter pair(±ÒÅÌÿÿÿÿÿJ$bd0056ea-fb56-4f49-a64a-1570efd7f41d
+Šjavascript:S6848%"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$3c9122c5-cb5d-4482-a513-29a5fa621eaf
+¦javascript:S1082%"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$354d9608-efeb-4507-b4ca-b89548ef8952
+„javascript:S1082("=onMouseOver must be accompanied by onFocus for accessibility.(ã©¤øÿÿÿÿJ$41d8e784-3c16-43b4-b5f0-a4f582d4dd96
+‚javascript:S1082)";onMouseOut must be accompanied by onBlur for accessibility.(˜ğÅ¥üÿÿÿÿJ$1bc56a78-1620-460c-a6a6-0db16f2de1a0
+Šjavascript:S6848."ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$eafc76b1-90a5-41ee-b572-4cb70da3e919
+¦javascript:S1082."_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$fdecbeef-32ff-42b0-b6c6-059d0d79e3d9
+javascript:S10821"=onMouseOver must be accompanied by onFocus for accessibility.(»ÁÁJ$9dd8b73d-ca19-4281-ba19-566a8b9f978e
+}javascript:S10822";onMouseOut must be accompanied by onBlur for accessibility.(ƒğœĞJ$b28b8e98-1e6f-4ee1-94d8-0b311fb7744e
+Šjavascript:S68487"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$c4863cea-7cd1-4747-b090-fa59d26df215
+¦javascript:S10827"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$a2a01a0b-4928-484c-86f5-da100b7cb8e9
+„javascript:S1082:"=onMouseOver must be accompanied by onFocus for accessibility.(š²¡¶ùÿÿÿÿJ$4a611114-a95f-4f2a-963c-3393827507a8
+}javascript:S1082;";onMouseOut must be accompanied by onBlur for accessibility.(¨›¦¢J$934517eb-e9f1-4ae7-aae0-30d45c01d923

@@ -1,0 +1,48 @@
+
+›javascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(¿Ð²§úÿÿÿÿJ$af125725-afa1-4e6b-8792-7700380564fe
+ljavascript:S6774	"*'startDate' is missing in props validation(ÀµãžJ$ad513e27-ca79-46a8-be7a-e73785ec346b
+ojavascript:S6774
+"('endDate' is missing in props validation(áŒ×“ÿÿÿÿÿJ$6d1e3cfd-f681-40a2-82c2-50d96d00ee10
+kjavascript:S6774"$'sum' is missing in props validation(½Üš¸ùÿÿÿÿJ$78b2ca4e-a024-4b92-a20a-d402b32692d5
+hjavascript:S6774"&'price' is missing in props validation(Ççµ°J$32a2aae3-c93d-4cfe-bc22-a2548b6bef80
+kjavascript:S6774")'roomRole' is missing in props validation(Ò­…ÔJ$ad70f79b-0cb5-46d5-b115-5a88f15d3b4a
+mjavascript:S6774"&'adult' is missing in props validation(æ”‡éúÿÿÿÿJ$87151891-cc33-44e0-9879-33e1d6c3cb1f
+mjavascript:S6774"&'child' is missing in props validation(ÑÏ¤‚ûÿÿÿÿJ$f7f51f96-b975-4006-83ac-9da5c91fa981
+ljavascript:S6774"%'baby' is missing in props validation(Ö™¬ëùÿÿÿÿJ$f0616986-ce36-4c49-89e8-af981499a451
+ljavascript:S6774"%'name' is missing in props validation(Ã‰ªüýÿÿÿÿJ$d30e4b25-e4e5-451b-95d0-fc76b10b8867
+jjavascript:S6774"('setName' is missing in props validation(¶—í”J$7a2b925c-5f52-474f-bc03-35c5a23cde00
+hjavascript:S6774"&'phone' is missing in props validation(ë´ÔûJ$3a67ebe1-9b44-49a7-ab85-e0d0d57ae624
+pjavascript:S6774")'setPhone' is missing in props validation(¤ö¨ðùÿÿÿÿJ$0b67b386-4ce4-4fa9-bf2c-2ef1388e7ef2
+ojavascript:S6774"('address' is missing in props validation(ØŸû©þÿÿÿÿJ$e600bc0d-5986-4334-95e5-f71db458b3c9
+rjavascript:S6774"+'setAddress' is missing in props validation(å€²šúÿÿÿÿJ$6b1d031e-2027-40eb-846e-b9ffd61f3bba
+mjavascript:S6774"&'email' is missing in props validation(ŸîžÂøÿÿÿÿJ$7fcae5f3-dafe-4ec7-b21f-ab70bf3863fa
+pjavascript:S6774")'setEmail' is missing in props validation(’ÅâÿÿÿÿÿJ$70df8be4-0a6a-43f8-a0be-eadf3fa4594c
+kjavascript:S6774")'zoneCode' is missing in props validation(Ð¢«¶J$ad5e1dec-4ee7-406d-a827-308fbd4922e1
+sjavascript:S6774",'setZoneCode' is missing in props validation(ùÖ˜×ùÿÿÿÿJ$56c3b9f9-a651-4019-9ff6-4ac37b8a577f
+jjavascript:S6774"('loginId' is missing in props validation(ô²ùŒJ$37b45d9f-1c84-442d-bbda-67017fd14d63
+{javascript:S6754":useState call is not destructured into value + setter pair(µ¶¢>J$c16ad5b4-fa33-44bf-a34d-256d1df539a9
+pjavascript:S6774t".'phone.replace' is missing in props validation(ìøí‹J$5e06297d-3a01-4e79-813d-ca4bdcc20ca7
+‘javascript:S2259“"NTypeError can be thrown as "verificationCode" might be null or undefined here.(ä¸ÎÜJ$9abef2d6-3f79-4937-87c7-6e6acaabdc69
+†javascript:S3358°"DExtract this nested ternary operation into an independent statement.(îéÃJ$57cafc06-b2cc-4c7c-9f4b-e0b0575298fb
+‡javascript:S3358²"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$82117a12-2bf6-47db-b6f2-a6006c76ca23
+†javascript:S3358Ä"DExtract this nested ternary operation into an independent statement.(îéÃJ$a94de674-bb6b-486d-8ccd-941869888846
+‡javascript:S3358Æ"DExtract this nested ternary operation into an independent statement.(¬ù‘âJ$426e632a-21c9-4d1e-9b9b-891118576bb7
+|javascript:S6774å"9'startDate.getUTCFullYear' is missing in props validation(¾£‰ˆJ$05d6b9ff-ab38-4083-bb8c-dcc8c52b5939
+vjavascript:S6774å"3'startDate.getMonth' is missing in props validation(¾£‰ˆJ$aa9febe3-4baa-4e65-a706-e3ae0fdf6574
+zjavascript:S6774æ"2'startDate.getDate' is missing in props validation(”ŒÔ®úÿÿÿÿJ$2c057471-33d3-430d-b737-063f3e241f17
+javascript:S6774æ"7'endDate.getUTCFullYear' is missing in props validation(”ŒÔ®úÿÿÿÿJ$bab219f2-92d0-4216-a7df-72557e8d60db
+yjavascript:S6774ç"1'endDate.getMonth' is missing in props validation(¬£–”þÿÿÿÿJ$9d276e8d-9667-43e7-ac03-975e3b4738bb
+xjavascript:S6774ç"0'endDate.getDate' is missing in props validation(¬£–”þÿÿÿÿJ$3633e800-e260-472f-9980-1f4f0a9316be
+‹javascript:S6848Ž"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$bec12afe-2b4a-487b-b962-15ddb4e20233
+§javascript:S1082Ž"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$89a20dd0-5adf-4a5a-b9f1-0f1302f76e19
+‹javascript:S6848š"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$cbb81a44-a3ec-4aa8-9382-58a7f5eaa3ed
+§javascript:S1082š"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$6b8e3e46-2b89-47f2-bf08-de29c462459e
+‹javascript:S6848´"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$9af86b71-a981-4172-8dcb-54b2b83610f4
+§javascript:S1082´"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$2e7a200e-8c57-486e-977d-eeb6c8d1e505
+‹javascript:S6848ø"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$ece544ec-ffee-4ccd-8eab-dfc605083242
+§javascript:S1082ø"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$b5c59a42-a0dd-41ce-9f21-c03272b56b4c
+Œjavascript:S3358…"DExtract this nested ternary operation into an independent statement.(÷ûì®ÿÿÿÿÿJ$5955e3a7-1966-4ff4-be52-5adf726343e7
+‹javascript:S6848¢"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$4a45bb5d-ec9e-486a-ab17-fa2f14fb2c78
+§javascript:S1082¢"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$6493bf85-1df4-419c-9f73-3103818ca50f
+‹javascript:S6848ã"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$1b22994b-f8f2-4fc5-91c9-de48c32fe44a
+§javascript:S1082ã"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$2fcf92c1-eca4-45a9-8cb7-c21f75c4eab0

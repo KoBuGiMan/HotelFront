@@ -42,19 +42,20 @@
   font-size: 15px;
   position: relative;
   bottom: 30%;
-  font-family: 'SF_HambakSnow';
+  font-family: 'NEXON Lv1 Gothic OTF';
   left: 2%;
   text-align: centers;
 }
 
 .footer-front {
-  font-family: 'SF_HambakSnow';
+  font-family: 'NEXON Lv1 Gothic OTF';
   font-size: 15px;
+  font-weight: 900;
 }
 
 .footer-korean {
   font-family: 'NEXON Lv1 Gothic OTF';
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .footer-people {

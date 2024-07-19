@@ -69,10 +69,10 @@ function DateCheck({
   useEffect(() => {
     dateSum();
   }, [endDate]);
-
+  const apiUrl = process.env.REACT_APP_API_URL;
   const dateCheck = async () => {
     try {
-      const response = await axios.post("/roomList/dateCheck", {
+      const response = await axios.post(`${apiUrl}/roomList/dateCheck`, {
         startDate: startDate,
         endDate: endDate,
       });

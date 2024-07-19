@@ -52,18 +52,6 @@ function People({
   return (
     <>
       <div className="people-list">
-        {/* <div className="people-list-box">
-          <span className="people-list-box-text">객실</span>
-          <div>
-            <span onClick={roomPlus} className="plus">
-              +
-            </span>
-            <span className="object-num">{room}</span>
-            <span onClick={roomMinus} className="minus">
-              -
-            </span>
-          </div>
-        </div> */}
         <div className="people-list-box">
           <span className="people-list-box-text">어른</span>
           <div>

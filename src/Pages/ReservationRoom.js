@@ -24,6 +24,7 @@ function ReservationRoom({
   setEmail,
   zoneCode,
   setZoneCode,
+  loginId,
 }) {
   const [car, setCar] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -31,13 +32,14 @@ function ReservationRoom({
   const [first, setFirst] = useState("");
   const [second, setSecond] = useState("");
   const [third, setThird] = useState("");
-  const [sendCheck, setSendCheck] = useState(true);
+  const [sendCheck, setSendCheck] = useState(false);
   const [verificationCode, setVerificationCode] = useState();
   const [verCheck, setVerCheck] = useState();
   const [verCheckNum, setVerCheckNum] = useState(false);
   const [fullAdd, setFullAdd] = useState("");
   const [frontEmail, setFrontEmail] = useState("");
   const [backEmail, setBackEmail] = useState("");
+  const apiUrl = process.env.REACT_APP_API_URL;
   const customModalStyles = {
     overlay: {
       backgroundColor: " rgba(0, 0, 0, 0.4)",
@@ -67,7 +69,7 @@ function ReservationRoom({
   const onCompletePost = (data) => {
     console.log(data);
     setAddress(data.address);
-    setFullAdd(data.address + plusAddress);
+    setFullAdd(data.address + " " + plusAddress);
     setZoneCode(data.zonecode);
     setIsOpen(false);
   };
@@ -107,7 +109,7 @@ function ReservationRoom({
 
   const plusAddChange = (res) => {
     setPluseAddress(res.target.value);
-    setFullAdd(address + res.target.value);
+    setFullAdd(address + " " + res.target.value);
   };
 
   const sendPhone = () => {
@@ -117,7 +119,7 @@ function ReservationRoom({
     } else {
       alert("문자가 전송되었습니다.");
       axios
-        .post("/send-mms", {
+        .post(`${apiUrl}/send-mms` /*"/send-mms"*/, {
           phoneNum: sanitizedPhone,
         })
         .then((res) => {
@@ -462,6 +464,13 @@ function ReservationRoom({
                 sum={sum}
                 price={price}
                 verCheckNum={verCheckNum}
+                car={car}
+                adult={adult}
+                child={child}
+                baby={baby}
+                loginId={loginId}
+                startDate={startDate}
+                endDate={endDate}
               />
               {/* ) : (
                 ""

@@ -3,11 +3,16 @@
 }
 
 .home {
-  background-image: url("../../public/images/MainPageBackground.jpg");
   width: 100%;
   height: 980px;
-
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1.8s ease-in-out;
+  animation: fadein 3s;
 }
+
+
+
 
 .back-box-font {
   position: relative;

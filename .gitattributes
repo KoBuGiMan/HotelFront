@@ -1,0 +1,4 @@
+public/Luxury/Duxury.data filter=lfs diff=lfs merge=lfs -text
+public/Deluxe/Standard.data filter=lfs diff=lfs merge=lfs -text
+public/Luxury/Luxury.data filter=lfs diff=lfs merge=lfs -text
+public/Deluxe/Deluxe.data filter=lfs diff=lfs merge=lfs -text

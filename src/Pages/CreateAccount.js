@@ -6,13 +6,13 @@ import "../CSS/CreateAccount.css";
 function CreateAccount() {
   const [id, setId] = useState("");
   const [password, setPassword] = useState("");
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const navigate = useNavigate();
   const [idCheck, setIdCheck] = useState(false);
   const [idList, setIdList] = useState([]);
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   const OnChangeId = (data) => {
     setId(data.target.value);
@@ -20,11 +20,8 @@ function CreateAccount() {
   const OnChangePW = (data) => {
     setPassword(data.target.value);
   };
-  const OnChangeFN = (data) => {
-    setFirstName(data.target.value);
-  };
-  const OnChangeLN = (data) => {
-    setLastName(data.target.value);
+  const OnChangeName = (data) => {
+    setName(data.target.value);
   };
   const OnChangeEmail = (data) => {
     setEmail(data.target.value);
@@ -38,8 +35,7 @@ function CreateAccount() {
       if (
         id.length < 5 ||
         password.length < 8 ||
-        firstName === "" ||
-        lastName === "" ||
+        name === "" ||
         email === "" ||
         phone === ""
       ) {
@@ -54,7 +50,8 @@ function CreateAccount() {
   };
 
   useEffect(() => {
-    fetch("users")
+    fetch(`${apiUrl}/users`)
+      //fetch("/users")
       .then((res) => {
         return res.json();
       })
@@ -78,18 +75,18 @@ function CreateAccount() {
   };
 
   const createUser = () => {
-    console.log("눌림");
     axios
-      .post("/users/create", {
+      .post(`${apiUrl}/users/create` /*"/users/create"*/, {
         loginId: id,
         password: password,
-        firstName: firstName,
-        lastName: lastName,
+        name: name,
         email: email,
         phone: phone,
         userRole: "USER",
       })
-      .then((response) => {})
+      .then((response) => {
+        window.location.reload();
+      })
       .catch((err) => {
         console.log(err);
       });
@@ -104,28 +101,15 @@ function CreateAccount() {
       <form className="form">
         <div className="colum-box-boxing">
           <div className="colum-box">
-            <span className="colum">성</span>
+            <span className="colum">이름</span>
           </div>
           <input
             minLength="1"
             className="textarea"
             type="text"
-            onChange={OnChangeFN}
-            value={firstName}
-            placeholder="First Name"
-          />
-        </div>
-        <div className="colum-box-boxing">
-          <div className="colum-box">
-            <div className="colum">이름</div>
-          </div>
-          <input
-            minLength="1"
-            className="textarea"
-            type="text"
-            onChange={OnChangeLN}
-            value={lastName}
-            placeholder="Last Name"
+            onChange={OnChangeName}
+            value={name}
+            placeholder="Name"
           />
         </div>
         <br />

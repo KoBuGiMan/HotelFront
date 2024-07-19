@@ -1,7 +1,7 @@
 .roomBody {
 
   width: 1200px;
-  height: 2800px;
+  height: 3140px;
   margin: 0 auto;
 
 }
@@ -36,7 +36,7 @@
   font-weight: 500;
 }
 
-.list {
+.li-list {
   position: relative;
   top: 3%;
   height: 1500px;
@@ -68,7 +68,7 @@
 
 }
 
-.content-text {
+.co-content-text {
   position: relative;
   top: 7%;
   left: 4.5%;
@@ -83,7 +83,7 @@
   color: brown;
 }
 
-.content-text2 {
+.co-content-text2 {
   position: relative;
   top: 9%;
   left: 4.5%;
@@ -104,9 +104,9 @@
 
 .bathroom-text {
   position: relative;
-  font-size: 25px;
-  left: 65%;
-  top: 2%;
+  font-size: 20px;
+  left: 60%;
+  top: -6%;
   font-family: 'NEXON Lv1 Gothic OTF';
 }
 
@@ -118,9 +118,9 @@
 
 .breakfast-text {
   position: relative;
-  font-size: 25px;
-  left: 4.5%;
-  top: 7%;
+  font-size: 20px;
+  right: 1%;
+  top: -4%;
   font-family: 'NEXON Lv1 Gothic OTF';
 }
 
@@ -129,29 +129,29 @@
   height: 400px;
 }
 
-.object {
+.ob-object {
   position: relative;
-  top: 24%;
+  top: 20%;
   left: 4.5%;
 }
 
-.object-img {
+.ob-object-img {
   width: 588px;
   height: 400px;
 }
 
-.object-text {
+.ob-object-text {
   position: relative;
-  font-size: 25px;
-  left: 65%;
-  top: 12%;
+  font-size: 20px;
+  left: 650px;
+  bottom: 50px;
   font-family: 'NEXON Lv1 Gothic OTF';
 }
 
 
-.list-select {
+.li-list-select {
   position: relative;
-  width: 204px;
+  width: 300px;
   height: 43px;
   top: 6%;
   left: 4.5%;
@@ -159,11 +159,11 @@
   z-index: 2;
 }
 
-.list-select-object {
+.li-list-select-object {
   display: inline-block;
   font-size: 20px;
   height: 100%;
-  width: 48%;
+  width: 32%;
   font-family: 'NEXON Lv1 Gothic OTF';
   cursor: pointer;
 }
@@ -187,7 +187,7 @@
 }
 
 
-.object-list {
+.ob-object-list {
   position: relative;
   width: 1102px;
   height: 500px;
@@ -195,7 +195,7 @@
   left: 4%;
 }
 
-.object-list-banner {
+.ob-object-list-banner {
   position: relative;
   top: 7%;
   width: 30%;
@@ -210,7 +210,7 @@
   color: brown;
 }
 
-.object-list-title {
+.ob-object-list-title {
   position: relative;
   top: 12%;
   font-size: 30px;
@@ -218,7 +218,7 @@
   margin-left: 7px;
 }
 
-.object-list-title-text {
+.ob-object-list-title-text {
 
   font-size: 50px;
   font-family: 'NEXON Lv1 Gothic OTF';
@@ -227,15 +227,38 @@
   margin-bottom: 20px;
 }
 
-.shell {
+.sh-shell {
   position: relative;
-  width: 500px;
-  height: 900px;
+  width: 1000px;
+  height: 1540px;
   top: 25%;
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
   font-family: 'NEXON Lv1 Gothic OTF';
   font-weight: 700;
+}
 
+.loadeMassage {
+  padding-top: 300px;
+  text-align: center;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  font-size: 40px;
+  white-space: pre-wrap;
+}
+
+.unitySize {
+  padding-top: 100px;
+  padding-left: 50px;
+  height: 650px;
+  width: 1000px;
+}
+
+.explanation {
+  padding-top: 5px;
+  padding-left: 250px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  text-align: left;
+  white-space: pre-wrap;
+  font-size: 20px;
 }

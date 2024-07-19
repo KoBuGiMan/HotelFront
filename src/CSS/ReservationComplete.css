@@ -1,0 +1,89 @@
+.complete-body {
+  width: 750px;
+  height: 950px;
+  margin: 0 auto;
+  padding: 25px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  background-color: rgb(224, 224, 224);
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.complete-answer-title {
+  width: 275px;
+  height: 35px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-left: 20px;
+  border-left: 4px brown solid;
+}
+
+.complete-answer-title-text {
+  font-size: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.complete-people-title {
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  border-left: 4px brown solid;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.complete-people-title-text {
+  font-size: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.complete-content {
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+
+.complete-content-text {
+  font-size: 18px;
+}
+
+.complete-room-title {
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  border-left: 4px brown solid;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.complete-room-title-text {
+  font-size: 25px;
+  position: relative;
+  top: 4px;
+}
+
+.complete-homebtn {
+  background-color: rgb(197, 197, 197);
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.complete-homebtn:hover {
+  background-color: rgb(173, 173, 173);
+}
+
+
+.complete-homebtn-text {
+  font-size: 30px;
+  position: relative;
+  top: 8px;
+}

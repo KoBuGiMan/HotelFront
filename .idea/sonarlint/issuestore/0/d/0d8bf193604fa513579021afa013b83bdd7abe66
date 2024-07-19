@@ -1,0 +1,3 @@
+
+Šjavascript:S6848o"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(ä‡ù’øÿÿÿÿJ$c9e176e2-40d1-4acc-b373-b43d03f14267
+¦javascript:S1082o"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ä‡ù’øÿÿÿÿJ$466bfb2b-46a7-41be-a37b-ff12d650b425

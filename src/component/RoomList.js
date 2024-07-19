@@ -13,11 +13,11 @@ function RoomList({
   setRole,
 }) {
   const nav = useNavigate();
-
+  const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
     const fetchRooms = async () => {
       try {
-        const res = await fetch("/rooms");
+        const res = await fetch(`${apiUrl}/rooms`);
         const data = await res.json();
 
         const prices = data.map((room) => room.roomPrice);
@@ -33,7 +33,7 @@ function RoomList({
 
     const fetchRoomCounts = async () => {
       try {
-        const response = await fetch("roomList/nowDateCheck", {
+        const response = await fetch(`${apiUrl}/roomList/nowDateCheck`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -56,26 +56,25 @@ function RoomList({
   };
 
   const loginCheck = () => {
-    // if (isLogin) {
-    //   changePage();
-    // } else {
-    //   alert("로그인이 필요합니다");
-    //   nav("/login");
-    // }
-    changePage();
+    if (!isLogin) {
+      alert("로그인이 필요합니다");
+      nav("/login");
+    } else {
+      changePage();
+    }
   };
 
   const loginCheckStandard = () => {
     setRoomRole("standard");
-    changePage();
+    loginCheck();
   };
   const loginCheckDeluxe = () => {
     setRoomRole("deluxe");
-    changePage();
+    loginCheck();
   };
   const loginCheckLuxury = () => {
     setRoomRole("luxury");
-    changePage();
+    loginCheck();
   };
 
   const standardClick = () => {
@@ -171,7 +170,7 @@ function RoomList({
                 <span>객실등급 : {role[2]}</span>
               </div>
               <div className="area-info-text">
-                <span>최대인원 : 성인 6명</span>
+                <span>최대인원 : 6명</span>
               </div>
               <div className="area-info-text">
                 <span>체크인 17:00 ~ 체크아웃 11:00</span>

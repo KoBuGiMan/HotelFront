@@ -1,0 +1,50 @@
+.mypageDelete-body {
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+  font-family: 'NEXON Lv1 Gothic OTF';
+
+}
+
+.mypageDelete-content {
+  width: 700px;
+  height: 400px;
+  border: 3px rgb(97, 97, 97) solid;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.mypageDelete-content-textBox {
+  text-align: center;
+  height: 200px;
+
+}
+
+.mypageDelete-content-textBox-text {
+  font-size: 25px;
+  position: relative;
+  top: 100px;
+}
+
+.mypageDelete-content-btn {
+  border: 3px black solid;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.mypageDelete-content-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.mypageDelete-content-btn-text {
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+}

@@ -29,9 +29,10 @@ function CreateReservation({
   setBaby,
 }) {
   const [room, setRoom] = useState([]);
-
+  const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
-    fetch("/rooms")
+    fetch(`${apiUrl}/rooms`)
+      // fetch("/rooms")
       .then((res) => {
         return res.json();
       })
@@ -63,10 +64,7 @@ function CreateReservation({
         baby={baby}
         setBaby={setBaby}
       />
-      <div>
-        {/* <div>{roomId}</div>
-        <button onClick={OnDateClick}>입력</button> */}
-      </div>
+      <div></div>
       <RoomList
         startDate={startDate}
         setStartDate={setStartDate}

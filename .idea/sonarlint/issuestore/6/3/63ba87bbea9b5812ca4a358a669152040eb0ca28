@@ -1,0 +1,12 @@
+
+mjavascript:S1128"&Remove this unused import of 'Header'.(ÎÆ×€øÿÿÿÿJ$214f6dba-17ad-4c8b-be92-b9a2c39e841d
+jjavascript:S6774")'roomRole' is missing in props validation(˜‰jJ$fed6a253-d5a3-40e4-92be-aa101c0a1ee7
+mjavascript:S6774",'setRoomRole' is missing in props validation(˜‰jJ$4a24a37b-04cd-4d55-ba91-13b7fcf2d23a
+wjavascript:S1481"5Remove the declaration of the unused 'room' variable.(»û¸úJ$f170d592-8c29-4df8-ad59-97bdcd6699be
+tjavascript:S1854"2Remove this useless assignment to variable "room".(»û¸úJ$cd6a82e6-4c7a-45e7-ac64-a290663f279f
+Šjavascript:S6848 "ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$57a43f8f-694a-43eb-a3ac-792d9d478142
+¦javascript:S1082 "_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$f784a1b1-1efa-4030-ba46-ef2b3d6b4258
+Šjavascript:S6848)"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$7609238a-fa56-45e4-8327-87a1fd9ba1f8
+¦javascript:S1082)"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$ec8b1113-e277-4fcd-8990-5e08de4781b2
+Šjavascript:S68482"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿJ$edb559c3-e9d0-4f5b-855d-e06a26599b51
+¦javascript:S10822"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿJ$2789aa8c-24ab-4a1b-a2ae-5123ad3cf356

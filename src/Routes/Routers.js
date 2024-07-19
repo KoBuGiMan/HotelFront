@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Users from "../Pages/Users.js";
+import Users from "../Pages/AdminUsers.js";
 import Rooms from "../Pages/Rooms.js";
-import Reservation from "../Pages/Reservation";
 import CreateAccount from "../Pages/CreateAccount.js";
 import Login from "../Pages/Login";
 import CreateReservation from "../Pages/CreateReservation.js";
@@ -12,6 +11,21 @@ import LoginHeader from "../Pages/LoginHeader.js";
 import SelectRoomRole from "../Pages/SelectRoomRole.js";
 import Footer from "../Pages/Footer.js";
 import ReservationRoom from "../Pages/ReservationRoom.js";
+import ReservationComplete from "../Pages/ReservationComplete.js";
+import Enjoy from "../Pages/Enjoy.js";
+import Admin from "../Pages/Admin.js";
+import AdminUsers from "../Pages/AdminUsers.js";
+import AdminReservation from "../Pages/AdminReservation.js";
+import AdminRooms from "../Pages/AdminRooms.js";
+import MyPage from "../Pages/MyPage.js";
+import MyPageInfo from "../Pages/MyPageInfo.js";
+import MyPageReservation from "../Pages/MyPageReservation.js";
+import MyPageDelete from "../Pages/MyPageDelete.js";
+import Swims from "../Pages/Swims.js";
+import Lounge from "../Pages/Lounge.js";
+import SelectSwimRole from "../Pages/SelectSwimRole.js";
+import HotelIntro from "../Pages/HotelIntro.js";
+import Restaurant from "../Pages/Restaurant.js";
 
 function Routers() {
   const [loginId, setLoginId] = useState("");
@@ -27,6 +41,7 @@ function Routers() {
 
   const changeLoginId = (data) => {
     setLoginId(data);
+    console.log(data);
   };
 
   const changeIsLogin = (data) => {
@@ -43,10 +58,14 @@ function Routers() {
   const [address, setAddress] = useState("");
   const [email, setEmail] = useState("");
   const [zoneCode, setZoneCode] = useState("");
+  const [userRole, setUserRole] = useState("");
+  const [swimRole, setSwimRole] = useState("infinity");
+  const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
     const fetchRooms = async () => {
       try {
-        const res = await fetch("/rooms");
+        const res = await fetch(`${apiUrl}/rooms`);
+        //const res = await fetch("/rooms");
         const data = await res.json();
         const prices = data.map((room) => room.roomPrice);
         setPrice(prices);
@@ -63,26 +82,56 @@ function Routers() {
   return (
     <>
       <BrowserRouter>
-        {isLogin ? <LoginHeader loginId={loginId} /> : <Header />}
-
+        {isLogin ? (
+          <LoginHeader
+            setIsLogin={setIsLogin}
+            loginId={loginId}
+            userRole={userRole}
+          />
+        ) : (
+          <Header />
+        )}
         <Routes>
+          <Route
+            path="/admin/rooms"
+            element={userRole === "ADMIN" ? <AdminRooms /> : ""}
+          />
           <Route path="" element={<Home />} />
-          <Route path="users" element={<Users />} />
+          <Route
+            path="/admin/users"
+            element={userRole === "ADMIN" ? <AdminUsers /> : ""}
+          />
+          <Route path="/restaurant" element={<Restaurant />} />
           <Route
             path="rooms"
             element={<Rooms roomRole={roomRole} setRoomRole={setRoomRole} />}
           />
-          <Route path="reservations" element={<Reservation />} />
+          <Route
+            path="/admin/reservationLists"
+            element={userRole === "ADMIN" ? <AdminReservation /> : ""}
+          />
           <Route path="createAccount" element={<CreateAccount />} />
+          <Route
+            path="/swims"
+            element={<Swims swimRole={swimRole} setSwimRole={setSwimRole} />}
+          />
           <Route
             path="login"
             element={
               <Login
                 changeLoginId={changeLoginId}
                 changeIsLogin={changeIsLogin}
+                setUserRole={setUserRole}
               />
             }
           />
+          <Route path="/mypage" element={isLogin ? <MyPage /> : ""} />
+          <Route path="/lounge" element={<Lounge />} />
+          <Route
+            path="selectswim"
+            element={<SelectSwimRole setSwimRole={setSwimRole} />}
+          />
+          <Route path="about" element={<HotelIntro />} />
           <Route
             path="reservation"
             element={
@@ -117,6 +166,7 @@ function Routers() {
               <SelectRoomRole setRoomRole={setRoomRole} roomRole={roomRole} />
             }
           />
+          <Route path="/enjoy" element={<Enjoy />} />
           <Route
             path="/reservation/reservationRoom"
             element={
@@ -139,8 +189,35 @@ function Routers() {
                 setEmail={setEmail}
                 zoneCode={zoneCode}
                 setZoneCode={setZoneCode}
+                loginId={loginId}
               />
             }
+          />
+          <Route
+            path="/mypage/info"
+            element={isLogin ? <MyPageInfo loginId={loginId} /> : ""}
+          />
+          <Route
+            path="/mypage/reservation"
+            element={isLogin ? <MyPageReservation loginId={loginId} /> : ""}
+          />
+          <Route
+            path="/mypage/delete"
+            element={
+              isLogin ? (
+                <MyPageDelete loginId={loginId} setIsLogin={setIsLogin} />
+              ) : (
+                ""
+              )
+            }
+          />
+          <Route
+            path="/reservation/complete"
+            element={<ReservationComplete loginId={loginId} />}
+          />
+          <Route
+            path="/admin"
+            element={userRole === "ADMIN" ? <Admin /> : ""}
           />
         </Routes>
         <Footer />

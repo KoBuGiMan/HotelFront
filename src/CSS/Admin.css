@@ -1,0 +1,32 @@
+.admin-body {
+  width: 1100px;
+  margin: 0 auto;
+  height: 700px;
+}
+
+.admin-content-box {
+  text-align: center;
+
+}
+
+.admin-content-box-object {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgb(207, 207, 207);
+  height: 250px;
+  width: 250px;
+  border-radius: 100px;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+.admin-content-box-object:hover {
+  background-color: rgb(160, 160, 160);
+}
+
+.admin-content-box-object-text {
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+}
